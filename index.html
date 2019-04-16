@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Counter</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="keywords" content="counter, nuotsu">
+    <meta name="description" content="A customizable counter that saves your counts.">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Counter
+            <button id="openHeader"></button>
+        </h1>
+        <nav>
+            <section class="c-previews">
+                <table></table>
+            </section>
+
+            <section class="c-more">
+                <button id="addCounter"></button>
+            </section>
+
+            <section class="info">
+                <p>
+                    &copy;
+                    <a href="https://nuotsu.github.io/" target="_blank">Nuotsu</a>
+                    | 2018.
+                </p>
+            </section>
+        </nav>
+    </header>
+
+    <section id="counters"></section>
+
+    <!-- .js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121900736-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-121900736-2');
+    </script>
+</body>
+
+</html>
